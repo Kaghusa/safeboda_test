@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "4b2ed189-dc9e-4549-8ea4-ca8cf82de095",
+		"name": "SafeBodaEventPromo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PromoCodeGeneration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"event_code\":\"EV00001\",\n        \"promo_expiry_date\":\"2022-03-29\",\n        \"promo_code_amount\":2500,\n        \"event_venue_radius\":1500\n        \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/safeboda_test/promo/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"safeboda_test",
+						"promo",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PromoCodeDeactivatoin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"promo_code\":\"SBI2FMBZ\"\n        \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/safeboda_test/promo/deactivate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"safeboda_test",
+						"promo",
+						"deactivate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PromoCodeRedeem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"promo_code\":\"SBFZFW9D\",\n        \"origin_latitude\":56.130366,\n        \"origin_longitude\":-106.34677099999,\n        \"destination_latitude\":57.223366,\n        \"destination_longitude\":-106.34675644699\n        \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/safeboda_test/promo/redeem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"safeboda_test",
+						"promo",
+						"redeem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetALLPromoCodes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"promo_code\":\"SBI2FMBZ\"\n        \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/safeboda_test/promo/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"safeboda_test",
+						"promo",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetActivePromoCodes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/safeboda_test/promo/active",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"safeboda_test",
+						"promo",
+						"active"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
