@@ -17,11 +17,12 @@ if(Input::checkInput('service', 'get', '1')){
     switch ($service){
         
         case "promo":
-
+        
             if(Input::checkInput('request', 'get', '1')){
                 $request = Input::get('request', 'get');
                 switch($request){
                     case "generate":
+                    if($_SERVER['REQUEST_METHOD'] === 'POST'){
                         # get request data
                             $_POST_DATA_JSON     = file_get_contents('php://input');
                             $_POST_DATA          = json_decode(str_replace("\\", "",$_POST_DATA_JSON),true);
@@ -139,11 +140,16 @@ if(Input::checkInput('service', 'get', '1')){
                                 $response['message'] = "No Body data found";
                                 Functions::Log(LOANLOG,"RESPONSE SENT: ", json_encode($response),$thread);
                             }
+                        }else {
+                                $response['status'] = BAD_REQUEST_METHOD;
+                                $response['message'] = "Method Not Allowed";
+                            }
 
                     break;
 
 
                     case "deactivate":
+                    if($_SERVER['REQUEST_METHOD'] === 'POST'){
                         # get request data
                             $_POST_DATA_JSON     = file_get_contents('php://input');
                             $_POST_DATA          = json_decode(str_replace("\\", "",$_POST_DATA_JSON),true);
@@ -220,11 +226,18 @@ if(Input::checkInput('service', 'get', '1')){
                                 $response['message'] = "No Body data found";
                                 Functions::Log(LOANLOG,"RESPONSE SENT: ", json_encode($response),$thread);
                             }
+                        
+                        }
+                        else {
+                            $response['status'] = BAD_REQUEST_METHOD;
+                            $response['message'] = "Method Not Allowed";
+                        }
 
                     break;
 
 
                     case "all":
+                    if($_SERVER['REQUEST_METHOD'] === 'GET'){
                        $promo_data=PromoCodeController::getAllPromoCodes();
                        if($promo_data){
                         $response['status']  = SUCCESS;
@@ -237,8 +250,14 @@ if(Input::checkInput('service', 'get', '1')){
                         $response['message'] = "No data found";
                         Functions::Log(LOANLOG,"RESPONSE SENT: ", json_encode($response),$thread);
                        }
+                    }
+                    else {
+                        $response['status'] = BAD_REQUEST_METHOD;
+                        $response['message'] = "Method Not Allowed";
+                    }
                     break;
                     case "active":
+                    if($_SERVER['REQUEST_METHOD'] === 'GET'){
                         $promo_data=PromoCodeController::getActivePromoCodes();
                         if($promo_data){
                             $response['status']  = SUCCESS;
@@ -251,9 +270,14 @@ if(Input::checkInput('service', 'get', '1')){
                             $response['message'] = "No data found";
                             Functions::Log(LOANLOG,"RESPONSE SENT: ", json_encode($response),$thread);
                         }
+                    }else{
+                        $response['status'] = BAD_REQUEST_METHOD;
+                        $response['message'] = "Method Not Allowed";
+                    }
                      break;
 
-                     case "redeem":
+                    case "redeem":
+                    if($_SERVER['REQUEST_METHOD'] === 'POST'){
                         # get request data
                             $_POST_DATA_JSON     = file_get_contents('php://input');
                             $_POST_DATA          = json_decode(str_replace("\\", "",$_POST_DATA_JSON),true);
@@ -344,7 +368,10 @@ if(Input::checkInput('service', 'get', '1')){
                                 $response['message'] = "No Body data found";
                                 Functions::Log(LOANLOG,"RESPONSE SENT: ", json_encode($response),$thread);
                             }
-
+                        }else {
+                            $response['status'] = BAD_REQUEST_METHOD;
+                            $response['message'] = "Method Not Allowed";
+                        }
                     break;
                     default:
                         $response['status']  = BAD_REQUEST;
@@ -360,6 +387,7 @@ if(Input::checkInput('service', 'get', '1')){
                 $response['message'] = "Payment service request does not exist";
 
             }
+        
         break;
         default:
             $response['status']  = BAD_REQUEST;
