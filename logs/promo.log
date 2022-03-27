@@ -1,0 +1,338 @@
+27-03-2022 18:47:01.143200 seq.1648406821  RECEIVED PROM REQUEST: {"event_code":"","promo_expiry_date":""} 
+27-03-2022 18:48:00.767000 seq.1648406880  RECEIVED PROM REQUEST: {"event_code":"","promo_expiry_date":""} 
+27-03-2022 18:50:03.992400 seq.1648407003  RECEIVED PROM REQUEST: {"event_code":"","promo_expiry_date":""} 
+27-03-2022 18:50:04.025000 seq.1648407003  EVENT STATUS:  N 
+27-03-2022 18:50:04.025200 seq.1648407003  RESPONSE SENT:  {"status":406,"message":"User not found"} 
+27-03-2022 18:51:04.254100 seq.1648407064  RECEIVED PROM REQUEST: {"event_code":"","promo_expiry_date":""} 
+27-03-2022 18:51:04.264200 seq.1648407064  EVENT STATUS:  N 
+27-03-2022 18:51:04.265500 seq.1648407064  RESPONSE SENT:  {"status":406,"message":"User not found"} 
+27-03-2022 18:51:42.371500 seq.1648407102  RECEIVED PROM REQUEST: {"event_code":"","promo_expiry_date":""} 
+27-03-2022 18:51:42.379500 seq.1648407102  EVENT STATUS:  N 
+27-03-2022 18:51:42.379700 seq.1648407102  RESPONSE SENT:  {"status":406,"message":"User not found"} 
+27-03-2022 19:03:00.527800 seq.1648407780  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":""} 
+27-03-2022 19:03:00.539300 seq.1648407780  EVENT STATUS:  Y 
+27-03-2022 19:03:00.540200 seq.1648407780  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:03:25.486300 seq.1648407805  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":""} 
+27-03-2022 19:03:25.494300 seq.1648407805  EVENT STATUS:  Y 
+27-03-2022 19:03:25.495900 seq.1648407805  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:03:25.496100 seq.1648407805  RESPONSE SENT:  {"status":200,"message":"OK"} 
+27-03-2022 19:04:00.350000 seq.1648407840  RECEIVED PROM REQUEST: {"event_code":"EV00002","promo_expiry_date":""} 
+27-03-2022 19:04:00.357500 seq.1648407840  EVENT STATUS:  Y 
+27-03-2022 19:04:00.358600 seq.1648407840  EVENT DATA:  {"id":"3","event_code":"EV00002","event_name":"TOUR DU RWANDA","event_venue":"CANAL OLYMPIA KIGALI RWANDA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:04:00.358800 seq.1648407840  RESPONSE SENT:  {"status":200,"message":"OK"} 
+27-03-2022 19:04:09.396400 seq.1648407849  RECEIVED PROM REQUEST: {"event_code":"EV00003","promo_expiry_date":""} 
+27-03-2022 19:04:09.399600 seq.1648407849  EVENT STATUS:  N 
+27-03-2022 19:04:09.399800 seq.1648407849  RESPONSE SENT:  {"status":406,"message":"Event not found"} 
+27-03-2022 19:14:24.884100 seq.1648408464  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":""} 
+27-03-2022 19:14:24.893900 seq.1648408464  EVENT STATUS:  Y 
+27-03-2022 19:14:24.896900 seq.1648408464  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:14:24.897300 seq.1648408464  Number of days from today to promo expiry date is  19079 
+27-03-2022 19:14:54.900500 seq.1648408494  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":""} 
+27-03-2022 19:14:54.904600 seq.1648408494  EVENT STATUS:  Y 
+27-03-2022 19:14:54.905300 seq.1648408494  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:14:54.905500 seq.1648408494  Number of days from today to promo expiry date is  19079 
+27-03-2022 19:14:54.905700 seq.1648408494  RESPONSE SENT:  {"status":400,"message":"Wrong date value or type"} 
+27-03-2022 19:15:45.456200 seq.1648408545  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":""} 
+27-03-2022 19:15:45.470300 seq.1648408545  EVENT STATUS:  Y 
+27-03-2022 19:15:45.471500 seq.1648408545  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:15:45.472800 seq.1648408545  Number of days from today to promo expiry date is  -19079 
+27-03-2022 19:15:45.473100 seq.1648408545  RESPONSE SENT:  {"status":400,"message":"Wrong date value or type"} 
+27-03-2022 19:16:01.114100 seq.1648408561  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28"} 
+27-03-2022 19:16:01.119200 seq.1648408561  EVENT STATUS:  Y 
+27-03-2022 19:16:01.122000 seq.1648408561  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:16:01.124300 seq.1648408561  Number of days from today to promo expiry date is  0 
+27-03-2022 19:16:01.124500 seq.1648408561  RESPONSE SENT:  {"status":400,"message":"Wrong date value or type"} 
+27-03-2022 19:16:02.173200 seq.1648408562  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28"} 
+27-03-2022 19:16:02.177500 seq.1648408562  EVENT STATUS:  Y 
+27-03-2022 19:16:02.181200 seq.1648408562  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:16:02.182500 seq.1648408562  Number of days from today to promo expiry date is  0 
+27-03-2022 19:16:02.182700 seq.1648408562  RESPONSE SENT:  {"status":400,"message":"Wrong date value or type"} 
+27-03-2022 19:16:18.403100 seq.1648408578  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29"} 
+27-03-2022 19:16:18.408900 seq.1648408578  EVENT STATUS:  Y 
+27-03-2022 19:16:18.409800 seq.1648408578  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:16:18.410100 seq.1648408578  Number of days from today to promo expiry date is  1 
+27-03-2022 19:17:29.321800 seq.1648408649  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29"} 
+27-03-2022 19:17:29.330800 seq.1648408649  EVENT STATUS:  Y 
+27-03-2022 19:17:29.332300 seq.1648408649  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:17:29.332800 seq.1648408649  Number of days from today to promo expiry date is  2 
+27-03-2022 19:17:30.428600 seq.1648408650  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29"} 
+27-03-2022 19:17:30.430300 seq.1648408650  EVENT STATUS:  Y 
+27-03-2022 19:17:30.431200 seq.1648408650  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:17:30.431600 seq.1648408650  Number of days from today to promo expiry date is  2 
+27-03-2022 19:17:35.104500 seq.1648408655  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28"} 
+27-03-2022 19:17:35.109300 seq.1648408655  EVENT STATUS:  Y 
+27-03-2022 19:17:35.111700 seq.1648408655  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:17:35.115000 seq.1648408655  Number of days from today to promo expiry date is  1 
+27-03-2022 19:17:36.106400 seq.1648408656  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28"} 
+27-03-2022 19:17:36.107800 seq.1648408656  EVENT STATUS:  Y 
+27-03-2022 19:17:36.108400 seq.1648408656  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:17:36.108900 seq.1648408656  Number of days from today to promo expiry date is  1 
+27-03-2022 19:17:40.145300 seq.1648408660  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-27"} 
+27-03-2022 19:17:40.147400 seq.1648408660  EVENT STATUS:  Y 
+27-03-2022 19:17:40.148200 seq.1648408660  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:17:40.148500 seq.1648408660  Number of days from today to promo expiry date is  0 
+27-03-2022 19:17:40.148700 seq.1648408660  RESPONSE SENT:  {"status":400,"message":"Wrong date value or type"} 
+27-03-2022 19:33:04.742300 seq.1648409584  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-27","promo_code_amount":1000} 
+27-03-2022 19:33:04.755600 seq.1648409584  EVENT STATUS:  Y 
+27-03-2022 19:33:04.757200 seq.1648409584  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:33:04.758000 seq.1648409584  Number of days from today to promo expiry date is  0 
+27-03-2022 19:33:04.758100 seq.1648409584  RESPONSE SENT:  {"status":400,"message":"Wrong date value or type"} 
+27-03-2022 19:33:06.098300 seq.1648409586  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-27","promo_code_amount":1000} 
+27-03-2022 19:33:06.103000 seq.1648409586  EVENT STATUS:  Y 
+27-03-2022 19:33:06.105100 seq.1648409586  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:33:06.105500 seq.1648409586  Number of days from today to promo expiry date is  0 
+27-03-2022 19:33:06.105900 seq.1648409586  RESPONSE SENT:  {"status":400,"message":"Wrong date value or type"} 
+27-03-2022 19:33:11.204100 seq.1648409591  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":1000} 
+27-03-2022 19:33:11.209600 seq.1648409591  EVENT STATUS:  Y 
+27-03-2022 19:33:11.210700 seq.1648409591  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:33:11.211000 seq.1648409591  Number of days from today to promo expiry date is  1 
+27-03-2022 19:33:11.211200 seq.1648409591  RESPONSE SENT:  {"status":200,"message":"ok "} 
+27-03-2022 19:33:17.337200 seq.1648409597  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":500} 
+27-03-2022 19:33:17.343100 seq.1648409597  EVENT STATUS:  Y 
+27-03-2022 19:33:17.343900 seq.1648409597  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:33:17.344100 seq.1648409597  Number of days from today to promo expiry date is  1 
+27-03-2022 19:33:17.344300 seq.1648409597  RESPONSE SENT:  {"status":500,"message":"Promo amount is less than the configured which is 600"} 
+27-03-2022 19:33:47.641300 seq.1648409627  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":500} 
+27-03-2022 19:33:47.651300 seq.1648409627  EVENT STATUS:  Y 
+27-03-2022 19:33:47.652100 seq.1648409627  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:33:47.652400 seq.1648409627  Number of days from today to promo expiry date is  1 
+27-03-2022 19:33:47.652700 seq.1648409627  RESPONSE SENT:  {"status":500,"message":"Promo amount is less than the configured which is 600 UGX"} 
+27-03-2022 19:38:59.849200 seq.1648409939  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":500} 
+27-03-2022 19:38:59.862500 seq.1648409939  EVENT STATUS:  Y 
+27-03-2022 19:38:59.863400 seq.1648409939  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:38:59.863700 seq.1648409939  Number of days from today to promo expiry date is  1 
+27-03-2022 19:38:59.863800 seq.1648409939  RESPONSE SENT:  {"status":500,"message":"Promo amount is less than the configured which is 600 UGX"} 
+27-03-2022 19:39:07.305800 seq.1648409947  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":1000} 
+27-03-2022 19:39:07.308000 seq.1648409947  EVENT STATUS:  Y 
+27-03-2022 19:39:07.308900 seq.1648409947  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:39:07.309200 seq.1648409947  Number of days from today to promo expiry date is  1 
+27-03-2022 19:39:07.318900 seq.1648409947  Generated Promo code PRWIVV4E 
+27-03-2022 19:39:07.319100 seq.1648409947  RESPONSE SENT:  {"status":200,"message":"ok "} 
+27-03-2022 19:39:31.546900 seq.1648409971  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":1000} 
+27-03-2022 19:39:31.553700 seq.1648409971  EVENT STATUS:  Y 
+27-03-2022 19:39:31.554600 seq.1648409971  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+27-03-2022 19:39:31.555000 seq.1648409971  Number of days from today to promo expiry date is  1 
+27-03-2022 19:39:31.555600 seq.1648409971  Generated Promo code SBZH8QAG 
+27-03-2022 19:39:31.555900 seq.1648409971  RESPONSE SENT:  {"status":200,"message":"ok "} 
+2022-03-27 19:49:39 seq.1648410579  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":1000} 
+2022-03-27 19:49:39 seq.1648410579  EVENT STATUS:  Y 
+2022-03-27 19:49:39 seq.1648410579  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 19:49:39 seq.1648410579  Number of days from today to promo expiry date is  1 
+2022-03-27 19:49:39 seq.1648410579  Generated Promo code SBCQ1HC4 
+2022-03-27 19:49:39 seq.1648410579  Promo data {"event_code":"EV00001","promo_code":"SBCQ1HC4","amount":1000,"radius":"0","expirty_date":"2022-03-28","created_at":"2022-03-27 19:49:39"} 
+2022-03-27 19:49:39 seq.1648410579  RESPONSE SENT:  {"status":500,"message":"ERROR occured while generated promo code 600 UGX"} 
+2022-03-27 19:50:34 seq.1648410634  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":1000} 
+2022-03-27 19:50:34 seq.1648410634  EVENT STATUS:  Y 
+2022-03-27 19:50:34 seq.1648410634  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 19:50:34 seq.1648410634  Number of days from today to promo expiry date is  1 
+2022-03-27 19:50:34 seq.1648410634  Generated Promo code SB8JL6D8 
+2022-03-27 19:50:34 seq.1648410634  Promo data {"event_code":"EV00001","promo_code":"SB8JL6D8","amount":1000,"radius":"0","expirty_date":"2022-03-28","created_at":"2022-03-27 19:50:34"} 
+2022-03-27 19:50:34 seq.1648410634  RESPONSE SENT:  {"status":500,"message":"ERROR occured while generated promo code "} 
+2022-03-27 19:52:25 seq.1648410745  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":1000} 
+2022-03-27 19:52:25 seq.1648410745  EVENT STATUS:  Y 
+2022-03-27 19:52:25 seq.1648410745  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 19:52:25 seq.1648410745  Number of days from today to promo expiry date is  1 
+2022-03-27 19:52:25 seq.1648410745  Generated Promo code SB9J2RJD 
+2022-03-27 19:52:25 seq.1648410745  Promo data {"event_code":"EV00001","promo_code":"SB9J2RJD","amount":1000,"radius":"0","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"} 
+2022-03-27 19:52:25 seq.1648410745  RESPONSE SENT:  {"status":200,"message":"ok "} 
+2022-03-27 19:58:08 seq.1648411088  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":1000} 
+2022-03-27 19:58:08 seq.1648411088  EVENT STATUS:  Y 
+2022-03-27 19:58:08 seq.1648411088  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 19:58:08 seq.1648411088  Number of days from today to promo expiry date is  1 
+2022-03-27 19:58:08 seq.1648411088  Generated Promo code SBI2FMBZ 
+2022-03-27 19:58:08 seq.1648411088  Promo data {"event_code":"EV00001","promo_code":"SBI2FMBZ","amount":1000,"radius":"0","expirty_date":"2022-03-28","created_at":"2022-03-27 19:58:08"} 
+2022-03-27 19:58:08 seq.1648411088  RESPONSE SENT:  {"status":200,"message":"ok "} 
+2022-03-27 19:59:08 seq.1648411148  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-28","promo_code_amount":200} 
+2022-03-27 19:59:09 seq.1648411148  EVENT STATUS:  Y 
+2022-03-27 19:59:09 seq.1648411148  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 19:59:09 seq.1648411148  Number of days from today to promo expiry date is  1 
+2022-03-27 19:59:09 seq.1648411148  RESPONSE SENT:  {"status":500,"message":"Promo amount is less than the configured which is 600 UGX"} 
+2022-03-27 19:59:22 seq.1648411162  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500} 
+2022-03-27 19:59:22 seq.1648411162  EVENT STATUS:  Y 
+2022-03-27 19:59:22 seq.1648411162  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 19:59:22 seq.1648411162  Number of days from today to promo expiry date is  2 
+2022-03-27 19:59:22 seq.1648411162  Generated Promo code SBS277V6 
+2022-03-27 19:59:22 seq.1648411162  Promo data {"event_code":"EV00001","promo_code":"SBS277V6","amount":2500,"radius":"0","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"} 
+2022-03-27 19:59:22 seq.1648411162  RESPONSE SENT:  {"status":200,"message":"ok "} 
+2022-03-27 20:00:53 seq.1648411253  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500} 
+2022-03-27 20:00:53 seq.1648411253  EVENT STATUS:  Y 
+2022-03-27 20:00:53 seq.1648411253  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 20:00:53 seq.1648411253  Number of days from today to promo expiry date is  2 
+2022-03-27 20:00:53 seq.1648411253  Generated Promo code SBLBPGCD 
+2022-03-27 20:00:53 seq.1648411253  Promo data {"event_code":"EV00001","promo_code":"SBLBPGCD","amount":2500,"radius":"0","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"} 
+2022-03-27 20:00:53 seq.1648411253  RESPONSE SENT:  {"status":200,"message":"Promo code generated successfully","promo_code":"SBLBPGCD"} 
+2022-03-27 20:01:50 seq.1648411310  RESPONSE SENT:  {"status":400,"message":"Invalid Payment service Request"} 
+2022-03-27 20:10:24 seq.1648411824  RECEIVED  REQUEST: {"promo_code":""} 
+2022-03-27 20:10:24 seq.1648411824  RESPONSE SENT:  {"status":400,"message":"Invalid Body data found"} 
+2022-03-27 20:10:52 seq.1648411852  RECEIVED  REQUEST: {"promo_code":""} 
+2022-03-27 20:10:52 seq.1648411852  PROMO STATUS:  N 
+2022-03-27 20:11:51 seq.1648411911  RECEIVED  REQUEST: {"promo_code":""} 
+2022-03-27 20:11:51 seq.1648411911  PROMO STATUS:  N 
+2022-03-27 20:11:51 seq.1648411911  RESPONSE SENT:  {"status":406,"message":"Event not found"} 
+2022-03-27 20:12:14 seq.1648411934  RECEIVED  REQUEST: {"promo_code":""} 
+2022-03-27 20:12:14 seq.1648411934  PROMO STATUS:  N 
+2022-03-27 20:12:14 seq.1648411934  RESPONSE SENT:  {"status":406,"message":"Event not found"} 
+2022-03-27 20:12:15 seq.1648411935  RECEIVED  REQUEST: {"promo_code":""} 
+2022-03-27 20:12:15 seq.1648411935  PROMO STATUS:  N 
+2022-03-27 20:12:15 seq.1648411935  RESPONSE SENT:  {"status":406,"message":"Event not found"} 
+2022-03-27 20:12:36 seq.1648411956  RECEIVED  REQUEST: {"promo_code":""} 
+2022-03-27 20:12:36 seq.1648411956  PROMO STATUS:  N 
+2022-03-27 20:12:36 seq.1648411956  RESPONSE SENT:  {"status":406,"message":"Promo not found"} 
+2022-03-27 20:12:37 seq.1648411957  RECEIVED  REQUEST: {"promo_code":""} 
+2022-03-27 20:12:37 seq.1648411957  PROMO STATUS:  N 
+2022-03-27 20:12:37 seq.1648411957  RESPONSE SENT:  {"status":406,"message":"Promo not found"} 
+2022-03-27 20:12:50 seq.1648411970  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:12:50 seq.1648411970  PROMO STATUS:  N 
+2022-03-27 20:12:50 seq.1648411970  RESPONSE SENT:  {"status":406,"message":"Promo not found"} 
+2022-03-27 20:12:52 seq.1648411972  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:12:52 seq.1648411972  PROMO STATUS:  N 
+2022-03-27 20:12:52 seq.1648411972  RESPONSE SENT:  {"status":406,"message":"Promo not found"} 
+2022-03-27 20:13:34 seq.1648412014  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:13:34 seq.1648412014  PROMO STATUS:  N 
+2022-03-27 20:13:34 seq.1648412014  RESPONSE SENT:  {"status":406,"message":"Promo not found"} 
+2022-03-27 20:13:36 seq.1648412016  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:13:36 seq.1648412016  PROMO STATUS:  N 
+2022-03-27 20:13:36 seq.1648412016  RESPONSE SENT:  {"status":406,"message":"Promo not found"} 
+2022-03-27 20:14:32 seq.1648412072  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:14:32 seq.1648412072  PROMO STATUS:  N 
+2022-03-27 20:14:32 seq.1648412072  RESPONSE SENT:  {"status":406,"message":"Promo not found"} 
+2022-03-27 20:14:33 seq.1648412073  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:14:33 seq.1648412073  PROMO STATUS:  N 
+2022-03-27 20:14:33 seq.1648412073  RESPONSE SENT:  {"status":406,"message":"Promo not found"} 
+2022-03-27 20:15:37 seq.1648412137  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:15:37 seq.1648412137  PROMO STATUS:  Y 
+2022-03-27 20:15:37 seq.1648412137  PROMO DATA:  {"id":"2","promo_code":"SBI2FMBZ","event_code":"EV00001","amount":"1000","radius":"0","status":"Y","expirty_date":"2022-03-28","created_at":"2022-03-27 19:58:08"} 
+2022-03-27 20:15:37 seq.1648412137  Promo edit data {"status":"D"} 
+2022-03-27 20:15:37 seq.1648412137  RESPONSE SENT:  {"status":200,"message":"Promo code deactivated successfully"} 
+2022-03-27 20:15:51 seq.1648412151  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:15:51 seq.1648412151  PROMO STATUS:  D 
+2022-03-27 20:15:51 seq.1648412151  RESPONSE SENT:  {"status":406,"message":"Promo is not active"} 
+2022-03-27 20:15:53 seq.1648412153  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:15:53 seq.1648412153  PROMO STATUS:  D 
+2022-03-27 20:15:53 seq.1648412153  RESPONSE SENT:  {"status":406,"message":"Promo is not active"} 
+2022-03-27 20:25:30 seq.1648412730  RESPONSE SENT:  {"status":200,"message":"Data found","data":{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"}} 
+2022-03-27 20:25:50 seq.1648412750  RESPONSE SENT:  {"status":200,"message":"Data found","data":[{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"},{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"2","promo_code":"SBI2FMBZ","event_code":"EV00001","amount":"1000","radius":"0","status":"D","expirty_date":"2022-03-28","created_at":"2022-03-27 19:58:08"},{"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"Y","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"}]} 
+2022-03-27 20:28:06 seq.1648412886  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ"} 
+2022-03-27 20:28:06 seq.1648412886  PROMO STATUS:  D 
+2022-03-27 20:28:06 seq.1648412886  RESPONSE SENT:  {"status":406,"message":"Promo is not active"} 
+2022-03-27 20:28:18 seq.1648412898  RESPONSE SENT:  {"status":200,"message":"Data found","data":[{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"},{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"2","promo_code":"SBI2FMBZ","event_code":"EV00001","amount":"1000","radius":"0","status":"D","expirty_date":"2022-03-28","created_at":"2022-03-27 19:58:08"},{"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"Y","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"}]} 
+2022-03-27 20:28:51 seq.1648412931  RESPONSE SENT:  {"status":200,"message":"Data found","data":[{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"},{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"2","promo_code":"SBI2FMBZ","event_code":"EV00001","amount":"1000","radius":"0","status":"D","expirty_date":"2022-03-28","created_at":"2022-03-27 19:58:08"},{"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"Y","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"}]} 
+2022-03-27 20:29:02 seq.1648412942  RESPONSE SENT:  {"status":200,"message":"Data found","data":[{"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"Y","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"},{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"}]} 
+2022-03-27 20:31:29 seq.1648413089  RESPONSE SENT:  {"status":200,"message":"Data found","count":3,"data":[{"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"Y","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"},{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"}]} 
+2022-03-27 20:31:35 seq.1648413095  RESPONSE SENT:  {"status":200,"message":"Data found","count":4,"data":[{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"},{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"2","promo_code":"SBI2FMBZ","event_code":"EV00001","amount":"1000","radius":"0","status":"D","expirty_date":"2022-03-28","created_at":"2022-03-27 19:58:08"},{"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"Y","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"}]} 
+2022-03-27 21:19:53 seq.1648415993  RECEIVED  REQUEST: {"promo_code":"SBI2FMBZ","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:19:53 seq.1648415993  PROMO STATUS:  D 
+2022-03-27 21:19:53 seq.1648415993  RESPONSE SENT:  {"status":406,"message":"Promo is not active"} 
+2022-03-27 21:20:10 seq.1648416010  RECEIVED  REQUEST: {"promo_code":"SB9J2RJD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:20:10 seq.1648416010  PROMO STATUS:  Y 
+2022-03-27 21:20:10 seq.1648416010  PROMO DATA:  {"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"Y","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"} 
+2022-03-27 21:20:10 seq.1648416010  Promo edit data {"status":"D"} 
+2022-03-27 21:20:10 seq.1648416010  RESPONSE SENT:  {"status":200,"message":"Promo code deactivated successfully"} 
+2022-03-27 21:20:26 seq.1648416026  RECEIVED  REQUEST: {"promo_code":"SB9J2RJD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:20:26 seq.1648416026  PROMO STATUS:  D 
+2022-03-27 21:20:26 seq.1648416026  RESPONSE SENT:  {"status":406,"message":"Promo is not active"} 
+2022-03-27 21:20:36 seq.1648416036  RECEIVED  REQUEST: {"promo_code":"SBLBPGCD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:20:36 seq.1648416036  PROMO STATUS:  Y 
+2022-03-27 21:20:36 seq.1648416036  PROMO DATA:  {"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"} 
+2022-03-27 21:20:36 seq.1648416036  DISTANCE  IS :  Y 
+2022-03-27 21:21:08 seq.1648416068  RECEIVED  REQUEST: {"promo_code":"SBLBPGCD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:21:08 seq.1648416068  PROMO STATUS:  Y 
+2022-03-27 21:21:08 seq.1648416068  PROMO DATA:  {"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"} 
+2022-03-27 21:21:08 seq.1648416068  DISTANCE  IS :  121.53605482575 
+2022-03-27 21:23:53 seq.1648416233  RECEIVED  REQUEST: {"promo_code":"SBLBPGCD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:23:53 seq.1648416233  PROMO STATUS:  Y 
+2022-03-27 21:23:53 seq.1648416233  PROMO DATA:  {"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"} 
+2022-03-27 21:23:53 seq.1648416233  DISTANCE  IS :  121.53605482575 
+2022-03-27 21:23:53 seq.1648416233  RESPONSE SENT:  {"status":500,"message":"Origin  or destination are not  within  radius of the event venue"} 
+2022-03-27 21:24:39 seq.1648416279  RECEIVED  REQUEST: {"promo_code":"SBLBPGCD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:24:39 seq.1648416279  PROMO STATUS:  Y 
+2022-03-27 21:24:39 seq.1648416279  PROMO DATA:  {"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"150","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"} 
+2022-03-27 21:24:39 seq.1648416279  DISTANCE  IS :  121.53605482575 
+2022-03-27 21:29:59 seq.1648416599  RECEIVED  REQUEST: {"promo_code":"SBLBPGCD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:29:59 seq.1648416599  PROMO STATUS:  Y 
+2022-03-27 21:29:59 seq.1648416599  PROMO DATA:  {"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"150","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"} 
+2022-03-27 21:29:59 seq.1648416599  DISTANCE  IS :  121.53605482575 
+2022-03-27 21:30:03 seq.1648416603  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500} 
+2022-03-27 21:30:03 seq.1648416603  EVENT STATUS:  Y 
+2022-03-27 21:30:03 seq.1648416603  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 21:30:03 seq.1648416603  Number of days from today to promo expiry date is  2 
+2022-03-27 21:30:41 seq.1648416641  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500} 
+2022-03-27 21:30:41 seq.1648416641  EVENT STATUS:  Y 
+2022-03-27 21:30:41 seq.1648416641  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 21:30:41 seq.1648416641  Number of days from today to promo expiry date is  2 
+2022-03-27 21:30:41 seq.1648416641  Generated Promo code SB8EKYT4 
+2022-03-27 21:30:41 seq.1648416641  Promo data {"event_code":"EV00001","promo_code":"SB8EKYT4","amount":2500,"radius":"0","expirty_date":"2022-03-29","created_at":"2022-03-27 21:30:41"} 
+2022-03-27 21:30:41 seq.1648416641  RESPONSE SENT:  {"status":200,"message":"Promo code generated successfully","promo_code":"SB8EKYT4"} 
+2022-03-27 21:30:51 seq.1648416651  RECEIVED  REQUEST: {"promo_code":"SB8EKYT4"} 
+2022-03-27 21:30:51 seq.1648416651  PROMO STATUS:  Y 
+2022-03-27 21:30:51 seq.1648416651  PROMO DATA:  {"id":"5","promo_code":"SB8EKYT4","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:30:41"} 
+2022-03-27 21:30:51 seq.1648416651  Promo edit data {"status":"D"} 
+2022-03-27 21:30:51 seq.1648416651  RESPONSE SENT:  {"status":200,"message":"Promo code deactivated successfully"} 
+2022-03-27 21:30:56 seq.1648416656  RESPONSE SENT:  {"status":200,"message":"Data found","count":5,"data":[{"id":"5","promo_code":"SB8EKYT4","event_code":"EV00001","amount":"2500","radius":"0","status":"D","expirty_date":"2022-03-29","created_at":"2022-03-27 21:30:41"},{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"150","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"},{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"100","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"2","promo_code":"SBI2FMBZ","event_code":"EV00001","amount":"1000","radius":"0","status":"D","expirty_date":"2022-03-28","created_at":"2022-03-27 19:58:08"},{"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"D","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"}]} 
+2022-03-27 21:31:04 seq.1648416664  RESPONSE SENT:  {"status":200,"message":"Data found","count":2,"data":[{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"100","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"150","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"}]} 
+2022-03-27 21:31:11 seq.1648416671  RECEIVED  REQUEST: {"promo_code":"SBLBPGCD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:31:11 seq.1648416671  PROMO STATUS:  Y 
+2022-03-27 21:31:11 seq.1648416671  PROMO DATA:  {"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"150","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"} 
+2022-03-27 21:31:11 seq.1648416671  DISTANCE  IS :  121.53605482575 
+2022-03-27 21:32:21 seq.1648416741  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500} 
+2022-03-27 21:32:21 seq.1648416741  EVENT STATUS:  Y 
+2022-03-27 21:32:21 seq.1648416741  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 21:32:21 seq.1648416741  Number of days from today to promo expiry date is  2 
+2022-03-27 21:32:21 seq.1648416741  Generated Promo code SBF6OP2Y 
+2022-03-27 21:32:21 seq.1648416741  Promo data {"event_code":"EV00001","promo_code":"SBF6OP2Y","amount":2500,"radius":"0","expirty_date":"2022-03-29","created_at":"2022-03-27 21:32:21"} 
+2022-03-27 21:32:21 seq.1648416741  RESPONSE SENT:  {"status":200,"message":"Promo code generated successfully","promo_code":"SBF6OP2Y"} 
+2022-03-27 21:34:58 seq.1648416898  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500} 
+2022-03-27 21:34:58 seq.1648416898  EVENT STATUS:  Y 
+2022-03-27 21:34:58 seq.1648416898  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 21:34:58 seq.1648416898  Number of days from today to promo expiry date is  2 
+2022-03-27 21:34:58 seq.1648416898  Generated Promo code SBA5RHCK 
+2022-03-27 21:34:58 seq.1648416898  Promo data {"event_code":"EV00001","promo_code":"SBA5RHCK","amount":2500,"radius":"0","expirty_date":"2022-03-29","created_at":"2022-03-27 21:34:58"} 
+2022-03-27 21:34:59 seq.1648416898  RESPONSE SENT:  {"status":200,"message":"Promo code generated successfully","promo_code":"SBA5RHCK"} 
+2022-03-27 21:38:09 seq.1648417089  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500} 
+2022-03-27 21:38:09 seq.1648417089  EVENT STATUS:  Y 
+2022-03-27 21:38:09 seq.1648417089  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 21:38:09 seq.1648417089  Number of days from today to promo expiry date is  2 
+2022-03-27 21:38:09 seq.1648417089  Generated Promo code SBKD8L53 
+2022-03-27 21:38:09 seq.1648417089  Promo data {"event_code":"EV00001","promo_code":"SBKD8L53","amount":2500,"radius":"0","expirty_date":"2022-03-29","created_at":"2022-03-27 21:38:09"} 
+2022-03-27 21:38:09 seq.1648417089  RESPONSE SENT:  {"status":200,"message":"Promo code generated successfully","promo_code":"SBKD8L53"} 
+2022-03-27 21:38:21 seq.1648417101  RECEIVED  REQUEST: {"promo_code":"SBKD8L53"} 
+2022-03-27 21:38:21 seq.1648417101  PROMO STATUS:  Y 
+2022-03-27 21:38:21 seq.1648417101  PROMO DATA:  {"id":"8","promo_code":"SBKD8L53","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:38:09"} 
+2022-03-27 21:38:21 seq.1648417101  Promo edit data {"status":"D"} 
+2022-03-27 21:38:21 seq.1648417101  RESPONSE SENT:  {"status":200,"message":"Promo code deactivated successfully"} 
+2022-03-27 21:38:26 seq.1648417106  RECEIVED  REQUEST: {"promo_code":"SBLBPGCD","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:38:26 seq.1648417106  PROMO STATUS:  Y 
+2022-03-27 21:38:26 seq.1648417106  PROMO DATA:  {"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"150","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"} 
+2022-03-27 21:38:26 seq.1648417106  DISTANCE  IS :  121.53605482575 
+2022-03-27 21:38:29 seq.1648417109  RESPONSE SENT:  {"status":200,"message":"Data found","count":8,"data":[{"id":"8","promo_code":"SBKD8L53","event_code":"EV00001","amount":"2500","radius":"0","status":"D","expirty_date":"2022-03-29","created_at":"2022-03-27 21:38:09"},{"id":"7","promo_code":"SBA5RHCK","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:34:58"},{"id":"6","promo_code":"SBF6OP2Y","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:32:21"},{"id":"5","promo_code":"SB8EKYT4","event_code":"EV00001","amount":"2500","radius":"0","status":"D","expirty_date":"2022-03-29","created_at":"2022-03-27 21:30:41"},{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"150","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"},{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"100","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"2","promo_code":"SBI2FMBZ","event_code":"EV00001","amount":"1000","radius":"0","status":"D","expirty_date":"2022-03-28","created_at":"2022-03-27 19:58:08"},{"id":"1","promo_code":"SB9J2RJD","event_code":"EV00001","amount":"1000","radius":"0","status":"D","expirty_date":"2022-03-28","created_at":"2022-03-27 19:52:25"}]} 
+2022-03-27 21:38:32 seq.1648417112  RESPONSE SENT:  {"status":200,"message":"Data found","count":4,"data":[{"id":"3","promo_code":"SBS277V6","event_code":"EV00001","amount":"2500","radius":"100","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 19:59:22"},{"id":"4","promo_code":"SBLBPGCD","event_code":"EV00001","amount":"2500","radius":"150","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 20:00:53"},{"id":"6","promo_code":"SBF6OP2Y","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:32:21"},{"id":"7","promo_code":"SBA5RHCK","event_code":"EV00001","amount":"2500","radius":"0","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:34:58"}]} 
+2022-03-27 21:44:44 seq.1648417484  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500,"event_venue_radius":1500} 
+2022-03-27 21:44:44 seq.1648417484  EVENT STATUS:  Y 
+2022-03-27 21:44:44 seq.1648417484  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 21:44:44 seq.1648417484  Number of days from today to promo expiry date is  2 
+2022-03-27 21:44:44 seq.1648417484  Generated Promo code SB37G8FK 
+2022-03-27 21:44:44 seq.1648417484  Promo data {"event_code":"EV00001","promo_code":"SB37G8FK","amount":2500,"radius":1500,"expirty_date":"2022-03-29","created_at":"2022-03-27 21:44:44"} 
+2022-03-27 21:44:44 seq.1648417484  RESPONSE SENT:  {"status":200,"message":"Promo code generated successfully","promo_code":"SB37G8FK"} 
+2022-03-27 21:47:49 seq.1648417669  RECEIVED PROM REQUEST: {"event_code":"EV00001","promo_expiry_date":"2022-03-29","promo_code_amount":2500,"event_venue_radius":1500} 
+2022-03-27 21:47:49 seq.1648417669  EVENT STATUS:  Y 
+2022-03-27 21:47:49 seq.1648417669  EVENT DATA:  {"id":"1","event_code":"EV00001","event_name":"AFRICAN ROOTS FESTIVAL","event_venue":"KIGALI ARENA","event_date":"2022-04-10","event_onwer":"ONE WORLD ENTERTAINMENT LTD","status":"Y"} 
+2022-03-27 21:47:49 seq.1648417669  Number of days from today to promo expiry date is  2 
+2022-03-27 21:47:49 seq.1648417669  Generated Promo code SBFZFW9D 
+2022-03-27 21:47:49 seq.1648417669  Promo data {"event_code":"EV00001","promo_code":"SBFZFW9D","amount":2500,"radius":1500,"expirty_date":"2022-03-29","created_at":"2022-03-27 21:47:49"} 
+2022-03-27 21:47:49 seq.1648417669  RESPONSE SENT:  {"status":200,"message":"Promo code generated successfully","promo_code":"SBFZFW9D"} 
+2022-03-27 21:48:04 seq.1648417684  RECEIVED  REQUEST: {"promo_code":"SBFZFW9D","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:48:04 seq.1648417684  PROMO STATUS:  Y 
+2022-03-27 21:48:04 seq.1648417684  PROMO DATA:  {"id":"10","promo_code":"SBFZFW9D","event_code":"EV00001","amount":"2500","radius":"1500","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:47:49"} 
+2022-03-27 21:48:04 seq.1648417684  RESPONSE SENT:  {"status":500,"message":"Promo Code expired"} 
+2022-03-27 21:48:05 seq.1648417685  RECEIVED  REQUEST: {"promo_code":"SBFZFW9D","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:48:05 seq.1648417685  PROMO STATUS:  Y 
+2022-03-27 21:48:05 seq.1648417685  PROMO DATA:  {"id":"10","promo_code":"SBFZFW9D","event_code":"EV00001","amount":"2500","radius":"1500","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:47:49"} 
+2022-03-27 21:48:05 seq.1648417685  RESPONSE SENT:  {"status":500,"message":"Promo Code expired"} 
+2022-03-27 21:50:26 seq.1648417826  RECEIVED  REQUEST: {"promo_code":"SBFZFW9D","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:50:26 seq.1648417826  PROMO STATUS:  Y 
+2022-03-27 21:50:26 seq.1648417826  PROMO DATA:  {"id":"10","promo_code":"SBFZFW9D","event_code":"EV00001","amount":"2500","radius":"1500","status":"Y","expirty_date":"2022-03-29","created_at":"2022-03-27 21:47:49"} 
+2022-03-27 21:50:26 seq.1648417826  DISTANCE  IS :  121.53605482575 
+2022-03-27 21:50:49 seq.1648417849  RECEIVED  REQUEST: {"promo_code":"SBFZFW9D","origin_latitude":56.13036600000000220234142034314572811126708984375,"origin_longitude":-106.3467709999899994954830617643892765045166015625,"destination_latitude":57.22336599999999862120603211224079132080078125,"destination_longitude":-106.3467564469899997448010253719985485076904296875} 
+2022-03-27 21:50:49 seq.1648417849  PROMO STATUS:  Y 
+2022-03-27 21:50:49 seq.1648417849  PROMO DATA:  {"id":"10","promo_code":"SBFZFW9D","event_code":"EV00001","amount":"2500","radius":"1500","status":"Y","expirty_date":"2022-03-27","created_at":"2022-03-27 21:47:49"} 
+2022-03-27 21:50:49 seq.1648417849  RESPONSE SENT:  {"status":500,"message":"Promo Code expired"} 

@@ -1,0 +1,41 @@
+# Turn Rewrite Engine On
+RewriteEngine On
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+#Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ https://www.valwallet.com/$1 [R=301,L,NE]
+#Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+
+#ErrorDocument 404 /tas17/404
+#ErrorDocument 500 /tas17/maintenance
+#Options -Indexes
+
+# RewriteEngine On 
+#RewriteCond %{HTTPS} off 
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+ #-----------------------------------------------#
+# Set Promo API 
+#-----------------------------------------------#
+
+ RewriteRule ^promo/([a-z]+)(/*)$ event_promo_codes/webservices/api.promo.event.php?service=promo&request=$1
+
+
+
+
+#-----------------------------------------------#
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
